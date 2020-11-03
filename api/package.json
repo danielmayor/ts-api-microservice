@@ -1,0 +1,26 @@
+{
+  "name": "my-talkspace-api-package",
+  "version": "1.0.0",
+  "description": "rest api to SHA256 hash digest hexadecimal format in JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install express && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmayor/ts-api-microservice.git"
+  },
+  "keywords": [
+    "talkspace"
+  ],
+  "author": "Daniel Mayor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmayor/ts-api-microservice/issues"
+  },
+  "homepage": "https://github.com/danielmayor/ts-api-microservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
