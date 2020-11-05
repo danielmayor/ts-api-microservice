@@ -1,8 +1,9 @@
 version: "2"
+
 services:
-  node:
-    image: "node:8"
-    user: "node"
+  api-server:
+    image: node:8
+    user: node
     working_dir: /home/node/app
     environment:
       - NODE_ENV=production
@@ -11,4 +12,5 @@ services:
     ports:
       - "5000:3000"
     command: "npm start"
+    restart: unless-stopped
 
