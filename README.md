@@ -1,11 +1,11 @@
-# Talkspace SRE Take Home Practicum
+# SRE Take Home Practicum
 
 ## Components
 This simple project is a Node.js (node image from Docker Hub) docker container, it contains a self-signed certificate and a few Express scripts to accomplish the target.
 
 ## Test
 1. Please clone this public repo: https://github.com/danielmayor/ts-api-microservice/
-2. Run docker-compose up
+2. Run _docker-compose up_
 3. Then you can perform a test with this script: https://gist.github.com/jackm-ts/700af2b1c50bf0ed10f4c77e825af428
 
 ## Notes
